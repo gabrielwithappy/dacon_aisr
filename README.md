@@ -18,8 +18,8 @@ drive.mount('/content/drive')
 ```
 - Real-ESGAN
   L archs
-      l rrdbnet_selfensemble_arch.py : use self-ensemble of the model (Rotation, Flip)
-      l ***.py : model pipeline (body - upsample - body -upsample -outlayer)
+      L rrdbnet_selfensemble_arch.py : use self-ensemble of the model (Rotation, Flip)
+      L ***.py : model pipeline (body - upsample - body -upsample -outlayer)
 - Real-ESGAN-interence.ipynb : soft ensemble of models
 - options/****.yml : train hyper parameter
 ```
