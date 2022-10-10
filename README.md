@@ -1,3 +1,5 @@
+This is the code for Dacon aisr
+
 1. create collab notebook on your google drive root.
 2. connect your google drive by using below code on the your collab notebook
    then all code will be in the dacon_aisr folder
