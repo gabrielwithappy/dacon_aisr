@@ -32,9 +32,11 @@ drive.mount('/content/drive')
 # Inference
 - user/dacon_aisr/Real-ESGAN_inference notebook
 - follow configuration step of the notebook
--- test files should be copied to /Real-ESRGAN/inputs
--- trained model should be copied to /Real-ESRGAN/tags
--- ensemble result goes to /utility/ensemble/result
+- test files should be copied to /Real-ESRGAN/inputs
+- trained model should be copied to /Real-ESRGAN/tags
+- ensemble result goes to /utility/ensemble/result
+
+
 :Folder Structure:
 ```
 /Real-ESRGAN
