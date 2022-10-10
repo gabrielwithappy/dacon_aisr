@@ -1,10 +1,10 @@
 This is the code for Dacon aisr
 박수철, 장진우, 윤성국, 양성모
 
-OS : ubuntu
-Python : > 3.7
-Links:
-- [Real ESRGAN](https://github.com/xinntao/Real-ESRGAN)
+- OS : ubuntu
+- Python : > 3.7
+- Links:
+  - [Real ESRGAN](https://github.com/xinntao/Real-ESRGAN)
 
 # Configuration
 1. create collab notebook on your google drive root.
