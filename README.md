@@ -10,4 +10,12 @@ drive.mount('/content/drive')
 
 %cd '/content/drive/MyDrive/'
 !git clone https://github.com/gabrielwithappy/dacon_aisr.git
+
 ```
+
+- Real-ESGAN
+  L archs
+      l rrdbnet_selfensemble_arch.py : use self-ensemble of the model (Rotation, Flip)
+      l ***.py : model pipeline (body - upsample - body -upsample -outlayer)
+- Real-ESGAN-interence.ipynb : soft ensemble of models
+- options/****.yml : train hyper parameter
