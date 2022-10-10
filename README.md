@@ -1,4 +1,5 @@
 This is the code for Dacon aisr
+박수철, 장진우, 윤성국, 양성모
 
 1. create collab notebook on your google drive root.
 2. connect your google drive by using below code on the your collab notebook
