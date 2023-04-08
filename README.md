@@ -1,22 +1,22 @@
-AI 양재 허브 인공지능 오픈소스 경진대회 1위
+# AI 양재 허브 인공지능 오픈소스 경진대회 1위
 
-이미지 초해상화(Image Super-Resolution)를 위한 AI 알고리즘 개발
-품질이 저하된 저해상도 촬영 이미지(512X512)를 고품질의 고해상도 촬영 이미지(2048X2048)로 생성
-주최: AI 양재 허브
-주관: 데이콘
-https://dacon.io/competitions/official/235977/codeshare/6887
+- 주제: 이미지 초해상화(Image Super-Resolution)를 위한 AI 알고리즘 개발
+- 목적: 품질이 저하된 저해상도 촬영 이미지(512X512)를 고품질의 고해상도 촬영 이미지(2048X2048)로 생성
+- 주최: AI 양재 허브
+- 주관: 데이콘
+- 수상: https://dacon.io/competitions/official/235977/codeshare/6887
 
-# Team Members
+## Team Members
 박수철, 장진우, 윤성국, 양성모
 
-# Environment
+## Environment
 - OS : ubuntu
 - Python : > 3.7
 - Links:
   - [Real ESRGAN](https://github.com/xinntao/Real-ESRGAN)
 
 
-# Configuration
+## Configuration
 1. create collab notebook on your google drive root.
 2. connect your google drive by using below code on the your collab notebook
    then all code will be in the dacon_aisr folder
@@ -29,7 +29,7 @@ drive.mount('/content/drive')
 
 ```
 
-# Code detail
+## Code detail
 ```
 - Real-ESGAN
   L archs
@@ -39,7 +39,7 @@ drive.mount('/content/drive')
 - options/****.yml : train hyper parameter
 ```
 
-# Inference
+## Inference
 - user/dacon_aisr/Real-ESGAN_inference notebook
 - follow configuration step of the notebook
 - test files should be copied to /Real-ESRGAN/inputs
